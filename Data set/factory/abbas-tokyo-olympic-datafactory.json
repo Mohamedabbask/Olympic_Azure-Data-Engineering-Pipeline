@@ -1,0 +1,9 @@
+{
+	"name": "abbas-tokyo-olympic-datafactory",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fcddf58a-36c3-496f-b752-5d2ebafe071f",
+		"tenantId": "dc172c62-c6d7-4cdd-8862-ffe7f7de45aa"
+	}
+}
