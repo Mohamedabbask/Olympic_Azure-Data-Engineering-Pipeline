@@ -1,0 +1,12 @@
+{
+	"name": "Athlete",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/Mohamedabbask/Olympic_Azure-Data-Engineering-Pipeline/blob/main/Data%20set/Athletes.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
