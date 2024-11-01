@@ -1,0 +1,15 @@
+{
+	"name": "CoachesHTTP",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://gist.githubusercontent.com/Mohamedabbask/d07de029c3b466816583a74fffaef3e5/raw/119627afd89bbb2e78255aff06e247bb7a7b8547/Coaches.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Basic",
+			"userName": "Mohamedabbask",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQwNzMzQkJGLUQ1NUItNEZDQS1CMDI4LTA1N0RBRURBNzVDRF85YzdhMDkwMy1mN2NhLTRiZDktYmQ5Mi0xODQ0N2VkZGNhYTQiDQp9"
+		}
+	}
+}
