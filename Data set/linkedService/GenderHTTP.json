@@ -1,0 +1,15 @@
+{
+	"name": "GenderHTTP",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://gist.githubusercontent.com/Mohamedabbask/a56964d4005d770a526b618248b7ee87/raw/5be21e05f4458ebf27208bfdf9c1094c1ed8bf6e/EntriesGender.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Basic",
+			"userName": "Mohamedabbask",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQwNzMzQkJGLUQ1NUItNEZDQS1CMDI4LTA1N0RBRURBNzVDRF9hYjg3YTA5OC01MTJhLTRhMmMtYTZjNi0yZTMwMzgzMmQwYTIiDQp9"
+		}
+	}
+}
